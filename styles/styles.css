@@ -1,3 +1,10 @@
+:root {
+    --primary-color: darkblue;
+    --secondary-color: white;
+    --spacing-medium: 1rem;
+    --image-height: auto;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
