@@ -57,7 +57,8 @@ article {
     display: block;
     width: 100%;
     height: auto;
-    position: absolute;
+    /* position: absolute; */
+    float: right;
 }
 
 h1 {
@@ -68,7 +69,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--secondary-color);
 }
 
 article {
@@ -78,4 +79,5 @@ article {
 .hero article img {
     float: right;
     width: 125px;
+    position: relative;
 }
