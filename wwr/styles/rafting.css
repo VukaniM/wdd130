@@ -74,6 +74,10 @@ h1 {
 
 .hero article {
     position: absolute;
+    top: 400px;
+    font-family: #fff;
+
+    color: white;
 
 }
 
