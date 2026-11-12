@@ -73,7 +73,8 @@ h1 {
 }
 
 .hero article {
-    position: absolute;
+    position: relative;
+
 }
 
 .hero article img {
