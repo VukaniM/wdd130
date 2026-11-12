@@ -72,7 +72,7 @@ h1 {
     color: var(--secondary-color);
 }
 
-article {
+.hero article {
     position: absolute;
 }
 
