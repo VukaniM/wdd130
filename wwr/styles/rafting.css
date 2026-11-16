@@ -94,7 +94,7 @@ p {
     position: absolute;
 }
 
-.hero image {
+.hero img {
     display: block;
     width: 100%;
     height: 430px;
@@ -142,7 +142,7 @@ footer p {
 
 .socialmedia {
     display: flex;
-    align-items: center;
+    align-items: right;
     gap: 10px;
     margin: 0;
     padding: 0;
