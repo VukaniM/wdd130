@@ -4,54 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us Whitewater rafting Site</title>
-    <meta name="description" content="This page provides an overview, information about its owners and staff, and basic trip summaries.">
+    <title>About Us | Whitewater Rafting Site</title>
+    <meta name="description" content="Learn about our whitewater rafting site, its history, and the adventures we offer.">
     <meta name="author" content="Vukani Mhlanga">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
     <header>
-        <img src="images/z-raftingcompas.jpg" alt="site logo" width="80">
-        <nav>
+        <img src="images/z-raftingcompas.jpg" alt="Whitewater rafting site logo" class="logo">
+        <nav aria-label="Main navigation">
             <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
+            <a href="about.html" aria-current="page">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+
     <main>
         <div class="hero">
-            <img src="images/background.jpg" alt="background image" height="200">
-            <h1>Whitewater rafting Site</h1>
-
-            <article>
-
-                <h2>About Us Whitewater rafting Site</h2>
-                <img src="images/images.jpg" alt="one of our happy employees" width="200">
-                <p>Whitewater rafting is a type of recreation that involves navigating a non-motorized watercraft down free flowing rivers. We typically offers experienced guides to take passengers down a river. The business intent is to provide a thrilling and safe experience to individuals and groups for a fee.</p>
-
+            <img src="images/background.jpg" alt="A river flowing through a scenic rafting landscape" class="hero-image">
+            <h1>Whitewater Rafting Site</h1>
+            <article class="hero-article">
+                <h2>About Us</h2>
+                <img src="images/images.jpg" alt="One of our happy rafting employees" class="employee-image">
+                <p>Whitewater rafting is a type of recreation that involves navigating a non-motorized watercraft down free-flowing rivers. We provide experienced guides to take passengers down a river. Our goal is to provide individuals and groups with a thrilling and safe experience.</p>
             </article>
         </div>
-        <section>
+
+        <section class="history">
             <h2>History</h2>
-            <p>Whitewater rafting can be traced back to 1811 when the first recorded attempt to navigate the Snake River in Wyoming was planned. With no training, experience, or proper equipment, the river was found to be too difficult and dangerous. Hence, it was given the nickname “Mad River.”</p>
+            <p>Whitewater rafting can be traced back to 1811, when the first recorded attempt to navigate the Snake River in Wyoming was planned. With no training, experience, or proper equipment, the river was found to be too difficult and dangerous. Hence, it was given the nickname “Mad River.”</p>
+            <img src="images/water.jpg" alt="A view of a river used for whitewater rafting" class="history-image">
         </section>
-        <section>
+
+        <section class="adventures">
             <h2>Adventure Awaits You!</h2>
+            <figure>
+                <img src="images/rafers.jpg" alt="Rafters navigating a challenging river rapid">
+                <figcaption>Los Dientes del Diablo</figcaption>
+            </figure>
+            <figure>
+                <img src="images/group.jpg" alt="A group enjoying a whitewater rafting adventure">
+                <figcaption>Big Mallard</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Calm.jpg" alt="A calm section of river surrounded by nature">
+                <figcaption>Half Day Adventure</figcaption>
+            </figure>
+            <figure>
+                <img src="images/white.jpg" alt="Rafters paddling through whitewater">
+                <figcaption>Rapid Run</figcaption>
+            </figure>
+            <figure>
+                <img src="images/enjoy.jpg" alt="A rafting team enjoying the river">
+                <figcaption>River Challenge</figcaption>
+            </figure>
         </section>
     </main>
-    <footer>
-        <p>© 2026 |Whitewater rafting Site|Vukani Mhlanga</p>
-        <nav class="socialmedia">
-            <a href="https://www.facebook.com/">
-                <img src="images/facebook.jpg" alt="Facebook logo" width="100"> </a>
-            <a href="https://www.linkedin.com/">
-                <img src="images/linkendin.png" alt="Linkedin logo" width="100"> </a>
-            <a href="https://www.instagram.com/">
-                <img src="images/instagram.jpg" alt="Instagram logo" width="100"> </a>
-        </nav>
 
+    <footer>
+        <p>© 2026 | Whitewater Rafting Site | Vukani Mhlanga</p>
+        <nav class="socialmedia" aria-label="Social media links">
+            <a href="https://www.facebook.com/" aria-label="Facebook"><img src="images/facebook.jpg" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/" aria-label="LinkedIn"><img src="images/linkendin.png" alt="LinkedIn"></a>
+            <a href="https://www.instagram.com/" aria-label="Instagram"><img src="images/instagram.jpg" alt="Instagram"></a>
+        </nav>
     </footer>
 </body>
 
