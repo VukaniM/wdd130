@@ -94,12 +94,16 @@ p {
     position: absolute;
 }
 
-.hero img {
+.hero article img {
     display: block;
     width: 100%;
     height: 430px;
     object-fit: cover;
     float: right
+}
+
+.hero h1 {
+    position: absolute;
 }
 
 .adventures figure {
