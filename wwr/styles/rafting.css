@@ -146,7 +146,7 @@ footer p {
 
 .socialmedia {
     display: flex;
-    align-items: right;
+    align-items: flex-end;
     gap: 10px;
     margin: 0;
     padding: 0;
