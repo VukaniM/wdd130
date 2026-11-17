@@ -68,20 +68,22 @@ header nav a[aria-current="page"] {
     color: var(--secondary-color);
     background-color: var(--accent1-color);
     border-radius: 4px;
+
 }
 
-h1,
-h2 {
+h1 {
     font-family: var(--heading-font);
+    /* position: absolute; */
+    /* margin-bottom: 100px; */
 }
 
 h2 {
     color: var(--accent2-color);
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
 }
 
 p {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 /* Hero section */
@@ -92,18 +94,40 @@ p {
 
 .hero article {
     position: absolute;
+
 }
 
 .hero article img {
     display: block;
-    width: 100%;
-    height: 430px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
-    float: right
+    float: right;
+
 }
 
 .hero h1 {
     position: absolute;
+    top: 10px;
+
+}
+
+.history {
+    margin-top: 100px;
+}
+
+.history h2 {
+    margin-bottom: 10px;
+    top: 10px;
+
+}
+
+.history img {
+
+    width: 200px;
+    height: 200px;
+    /* display: inline-block; */
+
 }
 
 .adventures figure {
