@@ -95,6 +95,11 @@ main {
         #ffffff;
 }
 
+.hero article {
+    position: absolute;
+    float: right;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -105,6 +110,7 @@ h2 {
 .hero h1 {
     font-size: 1.65rem;
     font-weight: 400;
+    /* position: absolute; */
 }
 
 .hero-content {
