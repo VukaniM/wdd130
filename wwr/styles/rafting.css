@@ -97,6 +97,10 @@ main {
 
 .hero article {
     position: absolute;
+
+}
+
+.hero article img {
     float: right;
 }
 
