@@ -80,10 +80,10 @@ main {
     padding-top: 12px;
 }
 
-.hero-article {
+.hero {
     min-height: 255px;
     padding: 12px 4%;
-    position: absolute;
+    position: relative;
     border: 1px solid var(--border-color);
     display: flex;
     flex-direction: column;
@@ -95,11 +95,10 @@ main {
         #ffffff;
 }
 
-/* 
 .hero article {
     position: absolute;
 
-} */
+}
 
 .hero article img {
     float: right;
@@ -118,7 +117,7 @@ h2 {
     /* position: absolute; */
 }
 
-.hero {
+.hero-content {
     min-height: 125px;
     padding: 14px 18px;
     display: flex;
@@ -127,15 +126,14 @@ h2 {
     gap: 20px;
     background: rgba(255, 255, 255, 0.96);
     border: 1px solid var(--border-color);
-    position: relative;
 }
 
-.hero p {
+.hero-content p {
     flex: 1;
     font-size: 0.9rem;
 }
 
-.hero img {
+.hero-content img {
     width: 95px;
     height: 85px;
     object-fit: cover;
