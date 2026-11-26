@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Whitewater Rafting</title>
+    <meta name="description" content="Contact our whitewater rafting company with questions, reservations, or suggestions.">
+    <meta name="author" content="Vukani Mhlanga">
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Whitewater Rafting home">
+            <img src="images/z-raftingcompas.jpg" alt="">
+        </a>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html" aria-current="page">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-intro">
+            <h1 id="page-title">White Water Rafting Company</h1>
+            <address>
+                <span>P O BOX 240 </span>
+                <span>Siteki, Swaziland</span>
+                <span>+268 76628209</span>
+                <a href="mailto:info@whitewater.com">info@whitewater.com</a>
+            </address>
+        </section>
+
+        <div class="contact-layout">
+            <div class="map">
+                <img src="images/map.png" alt="Map showing the location of our office in Kolob, California">
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Placeholder" required>
+                </div>
+
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Placeholder" required>
+                </div>
+
+                <fieldset class="form-row purpose">
+                    <legend>Message Purpose</legend>
+                    <div class="options">
+                        <div>
+                            <input type="radio" id="purpose-inquiry" name="purpose" value="general-inquiry" checked>
+                            <label for="purpose-inquiry">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="purpose-reservation" name="purpose" value="reservation-question">
+                            <label for="purpose-reservation">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="purpose-suggestion" name="purpose" value="website-suggestion">
+                            <label for="purpose-suggestion">Website Suggestion</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="form-stack">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Type here"></textarea>
+                </div>
+
+                <div class="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes" checked>
+                    <label for="newsletter">Please Subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Get in Touch!</button>
+            </form>
+        </div>
+
+        <section class="staff">
+            <h2 id="staff-title">We Are Here to Serve You</h2>
+            <div class="staff-profiles">
+                <figure>
+                    <img src="images/best.jpg" alt="Employee profile photo">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/water.jpg" alt="Employee profile photo">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/enjoy.jpg" alt="Employee profile photo">
+                    <figcaption>Employee Profile</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 | Whitewater Rafting Site | Vukani Mhlanga</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.jpg" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com/">
+                <img src="images/linkendin.png" alt="LinkedIn">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.jpg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
