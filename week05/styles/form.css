@@ -8,6 +8,20 @@ body {
     color: black;
 }
 
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.label-wide {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.label-narrow {
+    grid-template-columns: 1fr 2fr;
+}
+
 /* Horizontal line */
 hr {
     border: none;
